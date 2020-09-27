@@ -27,10 +27,5 @@ function tab(evt, tabName) {
       count++;
       displayCount.textContent =  "Events " + count;
     }
-      window.addEventListener("keydown", (event) => {
-        if(event.key === "2") {
-            count++;
-        displayCount.textContent =  "Events " + count;
-        }
-      })
+     
     
